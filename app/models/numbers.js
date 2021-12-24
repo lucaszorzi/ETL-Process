@@ -8,6 +8,6 @@ const numbers = database.define('numbers', {
     }
 })
 
-numbers.sync( { force: false });
+numbers.sync( { force: true });
 
 module.exports = numbers;

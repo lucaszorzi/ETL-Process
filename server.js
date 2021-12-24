@@ -5,7 +5,7 @@ export const start = () => {
           let server =
             (env === "secure" ? "https://" : "http://") + host + ":" + port;
           console.log(
-            chalk.green("Development server started on " + server)
+            chalk.green("Development server started on port " + server)
           );
         });
       })
